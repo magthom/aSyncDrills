@@ -44,7 +44,7 @@
 //  countdown(3, done);
 
 //Promises, Promises
-let lunchTime = true;
+let lunchTime = false;
 const orderMeSomeFood = () => {
     return new Promise((resolve, reject) => {
         if(lunchTime) {
